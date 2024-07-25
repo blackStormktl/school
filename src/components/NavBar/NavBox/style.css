@@ -1,0 +1,8 @@
+.menuContainer{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 1rem 3rem;
+    cursor: default;
+    z-index: 99;
+}

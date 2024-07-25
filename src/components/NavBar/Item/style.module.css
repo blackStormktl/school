@@ -1,0 +1,54 @@
+.MBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: default;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    cursor: default;
+}
+ .menu li{
+    margin: 0 1rem;
+    cursor: default;
+}
+
+.BtnMenu{
+    font-size: 2rem;
+}
+.mainMenu{
+    display: flex;
+    cursor: default;
+}
+.BtnMenu{
+    display: none;
+}
+@media (width < 915px){
+
+    .mainMenu{
+        display: none;
+    }
+    .BtnMenu{
+        font-size: 3rem;
+        margin: .5rem;
+        display: block;
+    }
+    .showMenu{
+        background-image: linear-gradient(to left,#F8335E,#FD4D38);
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        cursor: default;        
+        position: absolute;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .menu li{
+        margin-top: 1rem;
+    }
+}

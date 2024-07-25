@@ -1,0 +1,10 @@
+.SideBox{
+    margin: auto;
+    width: 60% ;
+}
+
+@media (width < 915px){
+    .SideBox{
+        width: 100%;
+    }
+}

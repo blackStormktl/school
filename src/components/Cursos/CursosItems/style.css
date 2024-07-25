@@ -1,0 +1,54 @@
+.mainBoxCard{
+    margin: 1rem auto;
+    height: 500px;
+    color: #c0c0c0;
+}
+.cursoCard{
+    width: 300px;
+    height: 100%;
+    margin: 1.5rem;
+    padding: .8rem;
+    background-color: rgba(255, 255, 255, 0.082);
+    backdrop-filter: blur(1rem);
+    border-radius: 0.2rem 1.5rem;
+    cursor: default;
+    margin: 1rem;
+}
+.cursoCard:hover{
+    background-color: rgba(255, 255, 255, 0.116);
+    box-shadow: 0 0 1rem rgba(255, 255, 255, 0.116);
+}
+.cursoCard img{
+    width: 100%;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(to left,#FF5A25,#f82b8d);
+    background-color: #f82b8d;
+}
+.cardBox{
+    padding: .2rem;
+}
+.cardBox h1 , h2{
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cardBox h2{
+    font-size: 1.5rem;
+    color: #FD4D38;
+    font-weight: 900;
+}
+.cardText{
+    margin: .5rem;
+    text-align: center;
+}
+
+@media (wedith < 915px){
+    .cursoCard{
+        margin: auto;
+    }
+    .cardText p{
+        text-align: justify;
+    }
+}

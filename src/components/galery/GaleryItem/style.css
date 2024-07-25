@@ -1,0 +1,8 @@
+.GItem{
+    width: 250px;
+    margin: 1rem auto;
+    border-radius: 0.2rem;
+    padding: .2rem;
+    
+    background-image: linear-gradient(to top,#F8335E,#FD4D38);
+}

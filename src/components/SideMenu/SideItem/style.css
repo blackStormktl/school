@@ -1,0 +1,38 @@
+.itemSide{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
+    color: #c0c0c0;
+}
+
+.itemSide li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+.itemSide li span{
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+@media (width < 515px){
+    .itemSide {
+        flex-direction: column;
+    }
+    .itemSide li{
+        margin: 1rem 0;
+    }
+
+    .itemSide li span{
+        font-size: 3rem;
+    }
+}
